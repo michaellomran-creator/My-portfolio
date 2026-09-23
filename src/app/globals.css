@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #060e18;
+  --foreground: #f5f9ff;
+  --cyber-cyan: #00e5ff;
+  --neon-blue: #1f6ae1;
+  --glow-purple: #7b5cff;
+  --surface-1: #081422;
+  --surface-2: #0b1c2d;
+  --surface-3: #0e2338;
+  --border-subtle: rgba(31, 106, 225, 0.18);
+  --border-active: rgba(0, 229, 255, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: #1f6ae1;
+  selection-color: #ffffff;
+}
+
+::selection {
+  background-color: rgba(31, 106, 225, 0.4);
+  color: #00e5ff;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #060e18;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #132d48;
+  border-radius: 4px;
+  border: 1px solid rgba(31, 106, 225, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1f6ae1;
+}
+
+/* Cyber grid background */
+.bg-grid-cyber {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(31, 106, 225, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(31, 106, 225, 0.05) 1px, transparent 1px);
+}
+
+.bg-radial-vignette {
+  background: radial-gradient(circle at 50% 20%, rgba(31, 106, 225, 0.08) 0%, transparent 60%);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(0, 229, 255, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Glassmorphism card surfaces */
+.glass-panel {
+  background: rgba(11, 28, 45, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(31, 106, 225, 0.18);
+}
+
+.glass-panel:hover {
+  border-color: rgba(0, 229, 255, 0.3);
+}
+
+.glass-panel-subtle {
+  background: rgba(8, 20, 34, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Telemetry typography helpers */
+.font-mono-tech {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Subtle glow badges */
+.cyber-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-family: var(--font-mono), monospace;
+  background: rgba(0, 229, 255, 0.08);
+  border: 1px solid rgba(0, 229, 255, 0.25);
+  color: #00e5ff;
+}
+
+/* Telemetry crosshair corners */
+.corner-bracket {
+  position: relative;
+}
+.corner-bracket::before,
+.corner-bracket::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-color: rgba(0, 229, 255, 0.4);
+  pointer-events: none;
+}
+.corner-bracket::before {
+  top: 0;
+  left: 0;
+  border-top: 1.5px solid;
+  border-left: 1.5px solid;
+}
+.corner-bracket::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 1.5px solid;
+  border-right: 1.5px solid;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
