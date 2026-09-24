@@ -30,7 +30,7 @@ export const portfolioKnowledgeBase: KnowledgeEntry[] = [
       "Mikiyas's final-year capstone project at Bahir Dar University is an 'AI-Powered Career Guidance System'. It was designed to solve a critical problem for pre-engineering freshmen: choosing whether to branch into Computing disciplines (Software Engineering, Computer Science, IT) or traditional Engineering fields. Rather than an unexplainable black-box machine learning model, Mikiyas engineered it as a transparent, rule-based expert system. It normalizes student assessment scores across cognitive aptitude and domain affinities, evaluating them against department profiles using weighted multi-criteria decision matrices with full explainability.",
     relatedLinks: [
       { label: "Inspect Case Study", href: "#projects" },
-      { label: "GitHub Repository", href: "https://github.com/mikiyasbirhanu/career-guidance-system" },
+      { label: "GitHub Repository", href: "https://github.com/michaellomran-creator/AI-powered-career-guidance-system" },
     ],
   },
   {
@@ -91,7 +91,7 @@ export const portfolioKnowledgeBase: KnowledgeEntry[] = [
       "What is his email address?",
     ],
     answer:
-      "You can contact Mikiyas directly via email at mikiyasbirhanu.dev@gmail.com, or connect on LinkedIn (linkedin.com/in/mikiyas-birhanu) and GitHub (github.com/mikiyasbirhanu). He is actively open to Software Engineering, AI & Automation, and Technical opportunities.",
+      "You can contact Mikiyas directly via email at michaellomran@gmail.com, or connect on LinkedIn (https://www.linkedin.com/in/mikiyas-birhanu-845690385) and GitHub (https://github.com/michaellomran-creator). He is actively open to Software Engineering, AI & Automation, and Technical opportunities.",
     relatedLinks: [{ label: "Jump to Contact Form", href: "#contact" }],
   },
   {

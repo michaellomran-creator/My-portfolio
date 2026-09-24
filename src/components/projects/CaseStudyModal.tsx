@@ -221,9 +221,9 @@ export function CaseStudyModal({ project, onClose }: CaseStudyModalProps) {
         {/* Modal Footer Controls */}
         <div className="px-6 py-4 border-t border-space-700/50 bg-space-850/80 flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            {project.links.github && (
+            {(project.githubUrl || project.links?.github) ? (
               <a
-                href={project.links.github}
+                href={project.githubUrl || project.links?.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-space-800 hover:bg-space-750 border border-space-600 text-xs font-mono-tech text-text-secondary hover:text-cyber-cyan transition-colors"
@@ -231,10 +231,18 @@ export function CaseStudyModal({ project, onClose }: CaseStudyModalProps) {
                 <Github className="w-3.5 h-3.5" />
                 <span>Repository</span>
               </a>
+            ) : (
+              <span
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-space-850/60 border border-space-750 text-xs font-mono-tech text-text-muted/60 cursor-not-allowed"
+                title="Repository currently unavailable"
+              >
+                <Github className="w-3.5 h-3.5" />
+                <span>Repository Unavailable</span>
+              </span>
             )}
-            {project.links.demo && project.links.demo !== "#" && (
+            {(project.liveUrl || (project.links?.demo && project.links.demo !== "#")) && (
               <a
-                href={project.links.demo}
+                href={project.liveUrl || project.links?.demo}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-neon-blue/20 hover:bg-neon-blue/30 border border-neon-blue/40 text-xs font-mono-tech text-cyber-cyan transition-colors"

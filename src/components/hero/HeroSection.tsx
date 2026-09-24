@@ -116,21 +116,23 @@ export function HeroSection({ onOpenResume, onOpenAI }: HeroSectionProps) {
               <Linkedin className="w-4 h-4" />
               <span>LinkedIn</span>
             </a>
+            <a
+              href={`mailto:${profileData.email}`}
+              className="flex items-center gap-1.5 hover:text-cyber-cyan transition-colors"
+              title={`Email ${profileData.email}`}
+            >
+              <Mail className="w-4 h-4" />
+              <span>Email</span>
+            </a>
             <button
               onClick={handleCopyEmail}
-              className="flex items-center gap-1.5 hover:text-cyber-cyan transition-colors text-left"
-              title="Copy Email"
+              className="hover:text-cyber-cyan transition-colors text-left text-[11px]"
+              title="Copy Email Address"
             >
               {copiedEmail ? (
-                <>
-                  <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                  <span className="text-emerald-400">Copied!</span>
-                </>
+                <span className="text-emerald-400 font-semibold">[Copied!]</span>
               ) : (
-                <>
-                  <Mail className="w-4 h-4" />
-                  <span>Email</span>
-                </>
+                <span className="text-text-muted hover:text-cyber-cyan">[Copy]</span>
               )}
             </button>
           </div>

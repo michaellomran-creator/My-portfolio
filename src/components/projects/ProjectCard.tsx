@@ -114,20 +114,27 @@ export function ProjectCard({ project, onOpenCaseStudy }: ProjectCardProps) {
         </button>
 
         <div className="flex items-center gap-2">
-          {project.links.github && (
+          {(project.githubUrl || project.links?.github) ? (
             <a
-              href={project.links.github}
+              href={project.githubUrl || project.links?.github}
               target="_blank"
               rel="noopener noreferrer"
               className="p-1.5 rounded-md hover:bg-space-750 text-text-muted hover:text-text-primary transition-colors"
-              title="View Repository"
+              title="View GitHub Repository"
             >
               <Github className="w-4 h-4" />
             </a>
+          ) : (
+            <span
+              className="p-1.5 rounded-md text-space-700/70 cursor-not-allowed"
+              title="Repository unavailable"
+            >
+              <Github className="w-4 h-4" />
+            </span>
           )}
-          {project.links.demo && project.links.demo !== "#" && (
+          {(project.liveUrl || (project.links?.demo && project.links.demo !== "#")) && (
             <a
-              href={project.links.demo}
+              href={project.liveUrl || project.links?.demo}
               target="_blank"
               rel="noopener noreferrer"
               className="p-1.5 rounded-md hover:bg-space-750 text-text-muted hover:text-cyber-cyan transition-colors"

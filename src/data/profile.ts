@@ -1,3 +1,21 @@
+import { ContactConfig } from "@/types";
+
+export const contactConfig: ContactConfig = {
+  github: {
+    username: "michaellomran-creator",
+    url: "https://github.com/michaellomran-creator",
+    label: "github.com/michaellomran-creator",
+  },
+  linkedin: {
+    url: "https://www.linkedin.com/in/mikiyas-birhanu-845690385",
+    label: "linkedin.com/in/mikiyas-birhanu-845690385",
+  },
+  email: {
+    address: "michaellomran@gmail.com",
+    mailto: "mailto:michaellomran@gmail.com",
+  },
+};
+
 export const profileData = {
   name: "Mikiyas Birhanu",
   roleTitle: "Software Developer • AI & Automation Enthusiast • Aspiring Cybersecurity Professional",
@@ -5,9 +23,10 @@ export const profileData = {
   shortBio:
     "Information Technology graduate from Bahir Dar University building practical software while engineering explainable AI systems, automated workflows, and robust security practices. Focused on real systems that deliver tangible value.",
   location: "Ethiopia (Addis Ababa / Bahir Dar)",
-  email: "mikiyasbirhanu.dev@gmail.com", // Configurable developer email
-  githubUrl: "https://github.com/mikiyasbirhanu",
-  linkedinUrl: "https://linkedin.com/in/mikiyas-birhanu",
+  email: contactConfig.email.address,
+  githubUrl: contactConfig.github.url,
+  linkedinUrl: contactConfig.linkedin.url,
+  contact: contactConfig,
   status: {
     badge: "CURRENTLY BUILDING",
     currentFocus: "AI • Automation • Software • Cybersecurity",

@@ -89,14 +89,16 @@ export function ProjectsSection() {
                 >
                   Inspect Complete Case Study (8 Sections) →
                 </button>
-                <a
-                  href={starProject.links.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2.5 rounded-lg bg-space-900 hover:bg-space-750 border border-space-600/50 text-xs font-mono-tech text-text-secondary hover:text-cyber-cyan transition-colors"
-                >
-                  View GitHub Source
-                </a>
+                {(starProject.githubUrl || starProject.links?.github) && (
+                  <a
+                    href={starProject.githubUrl || starProject.links?.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2.5 rounded-lg bg-space-900 hover:bg-space-750 border border-space-600/50 text-xs font-mono-tech text-text-secondary hover:text-cyber-cyan transition-colors"
+                  >
+                    View GitHub Source
+                  </a>
+                )}
               </div>
             </div>
           </div>

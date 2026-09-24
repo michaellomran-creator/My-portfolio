@@ -33,11 +33,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Mikiyas Birhanu" }],
   creator: "Mikiyas Birhanu",
-  metadataBase: new URL("https://mikiyasbirhanu.dev"),
+  metadataBase: new URL("https://my-portfolio-tau-nine-66.vercel.app"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mikiyasbirhanu.dev",
+    url: "https://my-portfolio-tau-nine-66.vercel.app",
     title: "Mikiyas Birhanu — Software Developer | AI & Cybersecurity",
     description:
       "IT graduate from Bahir Dar University building practical software, explainable AI systems, and defensive cybersecurity solutions.",

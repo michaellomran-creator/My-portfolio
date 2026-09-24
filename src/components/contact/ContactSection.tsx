@@ -71,9 +71,13 @@ export function ContactSection() {
               <div className="p-4 rounded-xl bg-space-900 border border-space-700/60 space-y-2">
                 <span className="text-[11px] font-mono-tech text-text-muted uppercase">Direct Email:</span>
                 <div className="flex items-center justify-between gap-2">
-                  <span className="font-mono-tech text-xs sm:text-sm text-text-primary select-all">
+                  <a
+                    href={`mailto:${profileData.email}`}
+                    className="font-mono-tech text-xs sm:text-sm text-text-primary hover:text-cyber-cyan transition-colors underline select-all"
+                    title={`Send email to ${profileData.email}`}
+                  >
                     {profileData.email}
-                  </span>
+                  </a>
                   <button
                     onClick={handleCopyEmail}
                     className="p-1.5 rounded-lg bg-space-800 hover:bg-space-750 text-text-muted hover:text-cyber-cyan transition-colors"
@@ -103,7 +107,7 @@ export function ContactSection() {
                   >
                     <div className="flex items-center gap-2.5">
                       <Linkedin className="w-4 h-4 text-neon-blue" />
-                      <span>linkedin.com/in/mikiyas-birhanu</span>
+                      <span>{profileData.contact.linkedin.label}</span>
                     </div>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
@@ -116,7 +120,7 @@ export function ContactSection() {
                   >
                     <div className="flex items-center gap-2.5">
                       <Github className="w-4 h-4 text-cyber-cyan" />
-                      <span>github.com/mikiyasbirhanu</span>
+                      <span>{profileData.contact.github.label}</span>
                     </div>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>

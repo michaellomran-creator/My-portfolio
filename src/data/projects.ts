@@ -68,10 +68,9 @@ export const projectsData: ProjectCaseStudy[] = [
       { name: "Relational Database", category: "Tools" },
       { name: "Modern Web UI", category: "Framework" },
     ],
+    githubUrl: "https://github.com/michaellomran-creator/AI-powered-career-guidance-system",
     links: {
-      github: "https://github.com/mikiyasbirhanu/career-guidance-system",
-      demo: "#",
-      docs: "#",
+      github: "https://github.com/michaellomran-creator/AI-powered-career-guidance-system",
     },
     visualType: "career-ai",
   },
@@ -123,9 +122,8 @@ export const projectsData: ProjectCaseStudy[] = [
       { name: "Network Protocols", category: "Tools" },
       { name: "CLI Telemetry", category: "Tools" },
     ],
-    links: {
-      github: "https://github.com/mikiyasbirhanu/network-security-scanner",
-    },
+    githubUrl: undefined,
+    links: {},
     visualType: "network-sec",
   },
   {
@@ -175,9 +173,8 @@ export const projectsData: ProjectCaseStudy[] = [
       { name: "AI APIs", category: "Tools" },
       { name: "PostgreSQL / SQLite", category: "Tools" },
     ],
-    links: {
-      github: "https://github.com/mikiyasbirhanu/workflow-automation-orchestrator",
-    },
+    githubUrl: undefined,
+    links: {},
     visualType: "automation-bot",
   },
   {
@@ -217,9 +214,8 @@ export const projectsData: ProjectCaseStudy[] = [
       { name: "TypeScript / React", category: "Framework" },
       { name: "HTML5 Canvas", category: "Framework" },
     ],
-    links: {
-      github: "https://github.com/mikiyasbirhanu/f1-telemetry-viewer",
-    },
+    githubUrl: undefined,
+    links: {},
     visualType: "f1-telemetry",
   },
 ];

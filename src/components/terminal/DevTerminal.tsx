@@ -174,8 +174,8 @@ export function DevTerminal({ isOpen, onClose }: DevTerminalProps) {
           <div className="space-y-1 text-text-secondary">
             <p className="text-cyber-cyan font-bold">COMMUNICATION CHANNELS:</p>
             <p>Email: <a href={`mailto:${profileData.email}`} className="text-text-primary underline">{profileData.email}</a></p>
-            <p>GitHub: <a href={profileData.githubUrl} target="_blank" rel="noreferrer" className="text-text-primary underline">{profileData.githubUrl}</a></p>
-            <p>LinkedIn: <a href={profileData.linkedinUrl} target="_blank" rel="noreferrer" className="text-text-primary underline">{profileData.linkedinUrl}</a></p>
+            <p>GitHub: <a href={profileData.githubUrl} target="_blank" rel="noopener noreferrer" className="text-text-primary underline">{profileData.githubUrl}</a></p>
+            <p>LinkedIn: <a href={profileData.linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-text-primary underline">{profileData.linkedinUrl}</a></p>
           </div>
         );
         break;

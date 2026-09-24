@@ -86,11 +86,11 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                 {profileData.email}
               </a>
               <span>•</span>
-              <a href={profileData.linkedinUrl} target="_blank" rel="noreferrer" className="hover:text-text-primary underline">
+              <a href={profileData.linkedinUrl} target="_blank" rel="noopener noreferrer" className="hover:text-text-primary underline">
                 LinkedIn Profile
               </a>
               <span>•</span>
-              <a href={profileData.githubUrl} target="_blank" rel="noreferrer" className="hover:text-text-primary underline">
+              <a href={profileData.githubUrl} target="_blank" rel="noopener noreferrer" className="hover:text-text-primary underline">
                 GitHub
               </a>
             </div>

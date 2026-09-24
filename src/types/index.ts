@@ -24,12 +24,30 @@ export interface ProjectCaseStudy {
     name: string;
     category: "Language" | "Framework" | "Architecture" | "Tools";
   }[];
+  githubUrl?: string;
+  liveUrl?: string;
+  docsUrl?: string;
   links: {
     github?: string;
     demo?: string;
     docs?: string;
   };
   visualType: "career-ai" | "network-sec" | "automation-bot" | "f1-telemetry";
+}
+
+export interface SocialLinkConfig {
+  url: string;
+  label: string;
+  username?: string;
+}
+
+export interface ContactConfig {
+  github: SocialLinkConfig;
+  linkedin: SocialLinkConfig;
+  email: {
+    address: string;
+    mailto: string;
+  };
 }
 
 export interface SkillCategory {
