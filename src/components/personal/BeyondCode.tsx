@@ -122,18 +122,38 @@ export function BeyondCode() {
           <div className="lg:col-span-6 space-y-8 flex flex-col">
             {/* F1 Header Card */}
             <div className="p-6 sm:p-7 rounded-2xl bg-gradient-to-br from-space-900 via-space-850 to-space-900 border border-space-700/70 shadow-lg space-y-4 relative overflow-hidden group">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2.5">
-                  <div className="p-2 rounded-lg bg-rose-500/15 border border-rose-500/30 text-rose-400">
-                    <Gauge className="w-4 h-4" />
+              {/* Top Row: Typographic F1 Motorsport Identity Treatment & Telemetry Discipline */}
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-space-950/90 border border-rose-500/30 shadow-[0_0_12px_rgba(244,63,94,0.12)]">
+                  {/* Subtle motorsport telemetry / motion indicator */}
+                  <div className="flex items-end gap-0.5 -skew-x-12" aria-hidden="true">
+                    <span className="w-0.5 h-2 rounded-[1px] bg-rose-500/40" />
+                    <span className="w-0.5 h-2.5 rounded-[1px] bg-rose-500/70" />
+                    <span className="w-0.5 h-3 rounded-[1px] bg-rose-500" />
                   </div>
-                  <span className="font-mono-tech text-xs text-rose-400 uppercase tracking-widest font-semibold">
-                    MOTORSPORT / PRECISION
+                  {/* Clean typographic F1 label */}
+                  <span className="font-mono-tech font-black text-xs tracking-tight text-text-primary">
+                    F<span className="text-rose-400">1</span>
+                  </span>
+                  <span className="w-px h-3 bg-space-800" aria-hidden="true" />
+                  <span className="font-mono-tech text-[10px] text-rose-300/80 uppercase tracking-widest font-semibold">
+                    F1 // PERSONAL INTEREST
                   </span>
                 </div>
+
                 <div className="px-2.5 py-1 rounded bg-space-950 border border-space-800 text-[10px] font-mono-tech text-text-muted">
                   TELEMETRY DISCIPLINE
                 </div>
+              </div>
+
+              {/* Motorsport Precision Category Tag */}
+              <div className="flex items-center gap-2.5 pt-0.5">
+                <div className="p-1.5 rounded-lg bg-rose-500/15 border border-rose-500/30 text-rose-400">
+                  <Gauge className="w-3.5 h-3.5" />
+                </div>
+                <span className="font-mono-tech text-xs text-rose-400 uppercase tracking-widest font-semibold">
+                  MOTORSPORT / PRECISION
+                </span>
               </div>
 
               <div>
