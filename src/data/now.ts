@@ -26,13 +26,6 @@ export const nowData = {
         "Practicing network socket auditing, Wireshark packet inspection, authentication flow hardening, and web application security best practices.",
       badge: "Security",
     },
-    {
-      title: "F1 Telemetry & High-Precision Data Modeling",
-      category: "Researching" as const,
-      description:
-        "Experimenting with FastF1 Python libraries to parse real-time throttle/brake telemetry channels and sector delta differentials from Grand Prix weekends.",
-      badge: "Side Curiosity",
-    },
   ] as NowItem[],
   currentlyReading: [
     {

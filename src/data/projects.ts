@@ -177,45 +177,4 @@ export const projectsData: ProjectCaseStudy[] = [
     links: {},
     visualType: "automation-bot",
   },
-  {
-    id: "f1-telemetry-visualizer",
-    title: "F1 Precision Telemetry & Lap Pace Analyzer",
-    category: "Systems & Tools",
-    shortDescription:
-      "An exploratory high-performance telemetry dashboard comparing Formula 1 throttle traces, braking points, and sector delta times using official timing telemetry.",
-    featured: false,
-    status: "Experimental",
-    timeline: "Personal Exploration",
-    role: "Data & UI Developer",
-    tags: ["Data Visualization", "Python", "FastF1", "React", "Telemetry"],
-    problem:
-      "F1 race strategy and lap differentials are often buried in dense timing data. Visualizing micro-deltas between drivers across specific apexes requires fast, synchronized charting.",
-    idea:
-      "Build a minimalist telemetry viewer pulling FastF1 session data to compare sector deltas, throttle profiles, and tire degradation curves.",
-    systemArchitecture: {
-      description:
-        "Python backend processing session telemetry caches, exposed via lightweight REST endpoints to a responsive canvas/SVG telemetry chart interface.",
-      flowSteps: [
-        "Data Ingestion: Fetches lap timing and car telemetry vectors from FastF1 APIs.",
-        "Downsampling & Syncing: Aligns distance markers across car data channels.",
-        "Interactive Overlay: Renders synchronized speed, gear, throttle, and delta traces.",
-      ],
-    },
-    myContribution: [
-      "Wrote Python data cleaning scripts to synchronize inconsistent GPS sample intervals.",
-      "Constructed custom canvas graphs for high-frame-rate scrubbing across lap distance.",
-    ],
-    challenges: "Distance alignment across laps with differing apex lines.",
-    solution: "Normalized telemetry data by lap distance rather than raw time timestamps.",
-    results: "Personal showcase combining deep interest in Formula 1 engineering with data visualization.",
-    technologies: [
-      { name: "Python", category: "Language" },
-      { name: "FastF1 Library", category: "Tools" },
-      { name: "TypeScript / React", category: "Framework" },
-      { name: "HTML5 Canvas", category: "Framework" },
-    ],
-    githubUrl: undefined,
-    links: {},
-    visualType: "f1-telemetry",
-  },
 ];

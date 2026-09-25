@@ -11,7 +11,10 @@ export function ProjectsSection() {
   const [selectedProject, setSelectedProject] = useState<ProjectCaseStudy | null>(null);
   const [activeFilter, setActiveFilter] = useState<string>("All");
 
-  const categories = ["All", "AI & Decision Systems", "Cybersecurity & Automation", "Full-Stack Software", "Systems & Tools"];
+  const categories = [
+    "All",
+    ...Array.from(new Set(projectsData.map((p) => p.category))),
+  ];
 
   const filteredProjects =
     activeFilter === "All"

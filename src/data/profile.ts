@@ -68,8 +68,8 @@ export const profileData = {
       title: "Formula 1 & Precision Engineering",
       quote: "To finish first, first you must finish.",
       description:
-        "Fascinated by aerodynamic telemetry, millisecond pit stop synchronization, and the fusion of high-frequency sensor data with tactical race strategy under extreme constraints.",
-      traits: ["Real-time Telemetry", "Iterative Optimization", "Fail-safe Reliability"],
+        "Fascinated by aerodynamic efficiency, millisecond pit stop synchronization, and the fusion of real-time sensor data with tactical race strategy under extreme constraints.",
+      traits: ["Tactical Strategy", "Iterative Optimization", "Fail-safe Reliability"],
     },
     photography: {
       title: "Visual Framing & Observation",

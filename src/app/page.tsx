@@ -61,7 +61,7 @@ export default function Home() {
       {/* 07: Public GitHub Repositories & Language Breakdown */}
       <GithubSection />
 
-      {/* 08: Beyond the Code (F1 Telemetry & Photography) */}
+      {/* 08: Beyond the Code (Formula 1 & Photography) */}
       <BeyondCode />
 
       {/* 09: Final Milestone (Contact & Collaboration) */}

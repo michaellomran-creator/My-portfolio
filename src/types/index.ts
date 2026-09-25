@@ -32,7 +32,7 @@ export interface ProjectCaseStudy {
     demo?: string;
     docs?: string;
   };
-  visualType: "career-ai" | "network-sec" | "automation-bot" | "f1-telemetry";
+  visualType: "career-ai" | "network-sec" | "automation-bot";
 }
 
 export interface SocialLinkConfig {

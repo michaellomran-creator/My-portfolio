@@ -1,6 +1,6 @@
 "use client";
 
-import { Cpu, Terminal, Shield, Zap, Sparkles, Compass, Gauge, Camera, BookOpen } from "lucide-react";
+import { Cpu, Terminal, Shield, Zap, Sparkles, Compass, Trophy, Camera, BookOpen } from "lucide-react";
 import { profileData } from "@/data/profile";
 
 export function AboutSection() {
@@ -21,7 +21,7 @@ export function AboutSection() {
     },
     {
       title: "Cybersecurity & Defenses",
-      description: "Network telemetry, socket programming, packet inspection, and secure backend patterns.",
+      description: "Network diagnostics, socket programming, packet inspection, and secure backend patterns.",
       icon: Shield,
       color: "text-glow-purple",
       bg: "bg-glow-purple/10 border-glow-purple/30",
@@ -153,11 +153,11 @@ export function AboutSection() {
               ))}
             </div>
 
-            {/* Subtle Personal Identity Touch: F1 & Photography */}
+            {/* Subtle Personal Identity Touch: Formula 1 & Photography */}
             <div className="p-4 rounded-xl bg-gradient-to-br from-space-850 to-space-800 border border-space-600/30 flex items-center justify-between text-xs font-mono-tech">
               <div className="flex items-center gap-2">
-                <Gauge className="w-4 h-4 text-rose-400" />
-                <span className="text-text-primary">F1 Telemetry Enthusiast</span>
+                <Trophy className="w-4 h-4 text-rose-400" />
+                <span className="text-text-primary">Formula 1 Enthusiast</span>
               </div>
               <span className="text-space-600">|</span>
               <div className="flex items-center gap-2">

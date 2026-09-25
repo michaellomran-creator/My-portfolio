@@ -55,7 +55,7 @@ export const portfolioKnowledgeBase: KnowledgeEntry[] = [
       "Has he built security or automation projects?",
     ],
     answer:
-      "Mikiyas's key projects include:\n1. AI-Powered Career Guidance System: An explainable expert decision system for academic stream allocation at Bahir Dar University.\n2. Network Security & Telemetry Scanner: An asynchronous Python tool for port auditing and daemon banner extraction.\n3. Intelligent Workflow Automation Orchestrator: An event-driven pipeline bridging webhooks and structured AI extraction APIs.\n4. F1 Telemetry & Lap Pace Analyzer: An exploratory telemetry visualizer comparing Formula 1 throttle and braking traces via FastF1 data.",
+      "Mikiyas's key projects include:\n1. AI-Powered Career Guidance System: An explainable expert decision system for academic stream allocation at Bahir Dar University.\n2. Network Security & Telemetry Scanner: An asynchronous Python tool for port auditing and daemon banner extraction.\n3. Intelligent Workflow Automation Orchestrator: An event-driven pipeline bridging webhooks and structured AI extraction APIs.",
     relatedLinks: [{ label: "View Featured Projects", href: "#projects" }],
   },
   {
@@ -103,7 +103,7 @@ export const portfolioKnowledgeBase: KnowledgeEntry[] = [
       "Why does he like Formula 1?",
     ],
     answer:
-      "Beyond coding, Mikiyas is a passionate Formula 1 enthusiast, fascinated by the millisecond precision, aerodynamic engineering, sensor telemetry, and tactical strategy of modern motorsport. He also practices photography, appreciating how framing, lighting, and composition parallel the intentionality and balance required in clean software design.",
+      "Beyond coding, Mikiyas is a passionate Formula 1 enthusiast, fascinated by the millisecond precision, aerodynamic engineering, real-time tactical strategy, and high-performance execution of modern motorsport. He also practices photography, appreciating how framing, lighting, and composition parallel the intentionality and balance required in clean software design.",
     relatedLinks: [{ label: "View Beyond the Code", href: "#personal" }],
   },
 ];

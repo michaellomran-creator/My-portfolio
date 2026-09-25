@@ -180,7 +180,7 @@ export const f1EngineeringPillars: F1EngineeringPillar[] = [
   {
     title: "OPTIMIZATION",
     connection:
-      "Iterative telemetry-driven adjustments echo the process of profiling systems, identifying bottlenecks, and refining algorithms.",
+      "Iterative data-driven adjustments echo the process of profiling systems, identifying bottlenecks, and refining algorithms.",
   },
   {
     title: "CONTINUOUS IMPROVEMENT",

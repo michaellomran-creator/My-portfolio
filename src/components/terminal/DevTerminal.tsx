@@ -81,7 +81,7 @@ export function DevTerminal({ isOpen, onClose }: DevTerminalProps) {
             <p><span className="text-text-primary font-semibold">whoami</span> — Display engineer identity & positioning</p>
             <p><span className="text-text-primary font-semibold">projects</span> — List engineered systems & case studies</p>
             <p><span className="text-text-primary font-semibold">skills</span> — Enumerate technical stack and domains</p>
-            <p><span className="text-text-primary font-semibold">f1</span> — Display telemetry insights & precision ethos</p>
+            <p><span className="text-text-primary font-semibold">f1</span> — Display Formula 1 passion & precision engineering ethos</p>
             <p><span className="text-text-primary font-semibold">now</span> — Query current technical initiatives</p>
             <p><span className="text-text-primary font-semibold">cat cv.txt</span> — Read plain-text curriculum vitae snapshot</p>
             <p><span className="text-text-primary font-semibold">contact</span> — Get direct channels & communication endpoints</p>
@@ -135,7 +135,7 @@ export function DevTerminal({ isOpen, onClose }: DevTerminalProps) {
       case "f1":
         output = (
           <div className="space-y-1.5 text-text-secondary border-l-2 border-rose-500 pl-3">
-            <p className="text-rose-400 font-bold font-mono-tech">&gt; F1_TELEMETRY_ENGINE</p>
+            <p className="text-rose-400 font-bold font-mono-tech">&gt; FORMULA_1_MOTORSPORT_ETHOS</p>
             <p className="italic text-text-primary">&quot;{profileData.beyondCode.f1.quote}&quot;</p>
             <p className="text-xs">{profileData.beyondCode.f1.description}</p>
             <p className="text-[11px] text-cyber-cyan">
