@@ -6,29 +6,29 @@ import { profileData } from "@/data/profile";
 export function AboutSection() {
   const exploringTopics = [
     {
-      title: "Artificial Intelligence",
+      title: "Intelligent Decision Systems",
       description: "Explainable rule systems, expert knowledge trees, and deterministic inference architectures.",
       icon: Cpu,
       color: "text-cyber-cyan",
       bg: "bg-cyber-cyan/10 border-cyber-cyan/30",
     },
     {
-      title: "AI Automation & Workflows",
-      description: "Connecting event webhooks, automated data transforms, and schema-constrained AI APIs.",
+      title: "Automation & Workflows",
+      description: "Connecting event webhooks, automated data transforms, and API integrations.",
       icon: Zap,
       color: "text-neon-blue",
       bg: "bg-neon-blue/10 border-neon-blue/30",
     },
     {
-      title: "Cybersecurity & Defenses",
-      description: "Network diagnostics, socket programming, packet inspection, and secure backend patterns.",
+      title: "Cybersecurity Fundamentals",
+      description: "Network diagnostics, socket programming, packet inspection, and foundational security concepts.",
       icon: Shield,
       color: "text-glow-purple",
       bg: "bg-glow-purple/10 border-glow-purple/30",
     },
     {
-      title: "Software Engineering",
-      description: "Clean modular architectures, TypeScript safety, REST APIs, and resilient data models.",
+      title: "Software Development",
+      description: "Clean modular components, TypeScript type safety, REST APIs, and responsive design.",
       icon: Terminal,
       color: "text-emerald-400",
       bg: "bg-emerald-500/10 border-emerald-500/30",
@@ -69,7 +69,7 @@ export function AboutSection() {
             </h2>
           </div>
           <p className="text-sm font-mono-tech text-text-muted max-w-sm">
-            IT Graduate • Bahir Dar University • Independent Systems Builder
+            IT Graduate • Bahir Dar University • Practical Software Developer
           </p>
         </div>
 

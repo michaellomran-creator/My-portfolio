@@ -4,7 +4,7 @@ export interface ProjectCaseStudy {
   category: "AI & Decision Systems" | "Full-Stack Software" | "Cybersecurity & Automation" | "Systems & Tools";
   shortDescription: string;
   featured: boolean;
-  status: "Completed (Defended)" | "Active Development" | "Production" | "Experimental";
+  status: "Completed (Defended)" | "In Development" | "Project Concept";
   timeline: string;
   role: string;
   tags: string[];
@@ -55,7 +55,7 @@ export interface SkillCategory {
   description: string;
   skills: {
     name: string;
-    level: "Advanced" | "Proficient" | "Exploring";
+    level: "Proficient" | "Familiar" | "Exploring";
     highlight?: boolean;
     note?: string;
   }[];
@@ -76,7 +76,7 @@ export interface ExperienceItem {
   organization: string;
   location: string;
   period: string;
-  type: "Internship" | "Academic Project" | "Freelance" | "Technical Role";
+  type: "Internship" | "Academic Project" | "Technical Role";
   highlights: string[];
   techStack: string[];
 }
@@ -94,7 +94,7 @@ export interface EducationItem {
 
 export interface NowItem {
   title: string;
-  category: "Building" | "Researching" | "Exploring" | "Reading";
+  category: "Building" | "Researching" | "Exploring" | "Reading" | "Learning";
   description: string;
   badge: string;
   linkText?: string;

@@ -18,10 +18,10 @@ export const contactConfig: ContactConfig = {
 
 export const profileData = {
   name: "Mikiyas Birhanu",
-  roleTitle: "Software Developer • AI & Automation Enthusiast • Aspiring Cybersecurity Professional",
-  tagline: "I build software, explore AI, and solve problems with technology.",
+  roleTitle: "IT Graduate • Software Developer • Web & Decision Systems",
+  tagline: "I build software, explore intelligent decision systems, and solve problems with technology.",
   shortBio:
-    "Information Technology graduate from Bahir Dar University building practical software while engineering explainable AI systems, automated workflows, and robust security practices. Focused on real systems that deliver tangible value.",
+    "Information Technology graduate from Bahir Dar University building practical software projects and exploring explainable decision systems, modern web development, and defensive cybersecurity fundamentals.",
   location: "Ethiopia (Addis Ababa / Bahir Dar)",
   email: contactConfig.email.address,
   githubUrl: contactConfig.github.url,
@@ -29,16 +29,16 @@ export const profileData = {
   contact: contactConfig,
   status: {
     badge: "CURRENTLY BUILDING",
-    currentFocus: "AI • Automation • Software • Cybersecurity",
-    availability: "Open to Software Engineering, AI & Technical Roles",
+    currentFocus: "Web Development • Decision Systems • Cybersecurity",
+    availability: "Open to Software Developer & Technical Roles",
   },
   cvPath: "/assets/Mikiyas_Birhanu_Resume.pdf",
   about: {
-    lead: "I am an IT graduate and practical software developer driven by how digital systems operate under the hood.",
+    lead: "I'm an IT graduate and software developer interested in building practical software and exploring AI, automation, and cybersecurity.",
     paragraphs: [
-      "Instead of settling for surface-level tutorials, I believe in learning by constructing functional systems. My work spans building full-stack web applications, architecting rule-based intelligent decision systems, and exploring network security patterns.",
-      "My final-year capstone project at Bahir Dar University addressed an acute real-world challenge: guiding pre-engineering students toward computing versus classical engineering tracks using transparent, explainable decision matrices rather than opaque black-box models.",
-      "I am deliberately disciplined with my technical path: developing rock-solid foundations in modern software architecture, exploring pragmatic AI & automation, and sharpening defensive cybersecurity instincts.",
+      "Rather than settling for surface-level tutorials, I believe in deepening my understanding by building functional projects. My work centers on implementing clean web applications, developing rule-based decision logic, and exploring core networking and security concepts.",
+      "For my final-year capstone project at Bahir Dar University, I developed an explainable rule-based career guidance system to assist pre-engineering students in evaluating Computing versus Engineering divisions using transparent criteria rather than opaque models.",
+      "I am actively growing my technical capabilities: solidifying my frontend and backend foundations, practicing task automation, and learning how systems operate from the ground up.",
     ],
     highlights: [
       {
@@ -47,19 +47,19 @@ export const profileData = {
         detail: "Bahir Dar Institute of Technology (BiT)",
       },
       {
-        label: "Core Engineering Ethos",
-        value: "Pragmatism & Clean Architecture",
-        detail: "Working code beats abstract speculation",
+        label: "Engineering Ethos",
+        value: "Pragmatic & Clean Code",
+        detail: "Working software beats abstract speculation",
       },
       {
-        label: "Current Specialization",
-        value: "AI Systems & Automation",
-        detail: "Decision engines, API workflows & pipelines",
+        label: "Technical Focus",
+        value: "Decision Systems & Web Dev",
+        detail: "Rule-based logic & responsive interfaces",
       },
       {
-        label: "Security Focus",
-        value: "Defensive & Systems Security",
-        detail: "Network analysis, vulnerability assessment",
+        label: "Security Interest",
+        value: "Cybersecurity Fundamentals",
+        detail: "Network analysis, protocols & defensive concepts",
       },
     ],
   },

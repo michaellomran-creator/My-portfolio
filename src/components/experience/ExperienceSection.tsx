@@ -15,11 +15,11 @@ export function ExperienceSection() {
               04 // Practical Trajectory
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-text-primary">
-              Experience & Project Milestones.
+              Workplace Experience.
             </h2>
           </div>
           <p className="text-xs font-mono-tech text-text-muted max-w-xs">
-            Demonstrated delivery across academic capstone engineering, freelance development, and technical roles.
+            Practical workplace experience gained through website development and technical workflows.
           </p>
         </div>
 

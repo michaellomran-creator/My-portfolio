@@ -23,7 +23,7 @@ export function DevTerminal({ isOpen, onClose }: DevTerminalProps) {
       command: "welcome",
       output: (
         <div className="space-y-1 text-text-muted">
-          <p className="text-cyber-cyan font-bold">Mikiyas Birhanu — Developer Telemetry Terminal v1.0.4</p>
+          <p className="text-cyber-cyan font-bold">Mikiyas Birhanu — Developer Terminal v1.0.4</p>
           <p>Type <span className="text-text-primary font-semibold">&apos;help&apos;</span> to see available system commands.</p>
         </div>
       ),
@@ -162,8 +162,9 @@ export function DevTerminal({ isOpen, onClose }: DevTerminalProps) {
             <p className="text-cyber-cyan font-bold">CURRICULUM VITAE SUMMARY</p>
             <p>Candidate: {profileData.name}</p>
             <p>Degree: B.Sc. in Information Technology, Bahir Dar University (BiT)</p>
-            <p>Core Areas: Python, TypeScript, Rule-Based AI, Web Architecture, Network Security</p>
-            <p>Capstone: AI-Powered Career Guidance System (Pre-Engineering Stream Placement)</p>
+            <p>Experience: Website Development Intern</p>
+            <p>Core Areas: Python, React, Modern Web Development, Decision Logic, Networking Fundamentals</p>
+            <p>Capstone: AI-Powered Career Guidance System (Explainable Rule-Based Logic)</p>
             <p className="text-text-muted">For complete PDF format, click &apos;Download CV&apos; on the main page.</p>
           </div>
         );

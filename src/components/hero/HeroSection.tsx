@@ -146,7 +146,7 @@ export function HeroSection({ onOpenResume, onOpenAI }: HeroSectionProps) {
             <span className="text-space-600">•</span>
             <div className="flex items-center gap-1.5">
               <Code2 className="w-3.5 h-3.5 text-neon-blue" />
-              <span>Full-Stack Engineering</span>
+              <span>Web Development</span>
             </div>
             <span className="text-space-600">•</span>
             <div className="flex items-center gap-1.5">

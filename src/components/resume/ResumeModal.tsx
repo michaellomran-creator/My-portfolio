@@ -128,10 +128,10 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             ))}
           </div>
 
-          {/* Experience & Projects */}
+          {/* Workplace Experience */}
           <div className="space-y-4">
             <h3 className="text-xs font-mono-tech uppercase text-cyber-cyan tracking-wider font-bold">
-              Experience & Major Projects
+              Workplace Experience
             </h3>
             {experienceData.map((exp, idx) => (
               <div key={idx} className="space-y-1.5">

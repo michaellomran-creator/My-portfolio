@@ -15,20 +15,21 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mikiyas Birhanu — Software Developer | AI & Cybersecurity",
+  title: "Mikiyas Birhanu — Software Developer | IT Graduate",
   description:
-    "Portfolio of Mikiyas Birhanu, an IT graduate from Bahir Dar University (Ethiopia), practical software developer building explainable AI systems, workflow automation, and defensive cybersecurity solutions.",
+    "Portfolio of Mikiyas Birhanu, an IT graduate from Bahir Dar University (Ethiopia), practical software developer building projects in web development, explainable decision systems, and cybersecurity fundamentals.",
   keywords: [
     "Mikiyas Birhanu",
     "Software Developer",
-    "AI Engineer",
+    "IT Graduate",
+    "Web Developer",
     "Cybersecurity",
     "Automation",
     "Bahir Dar University",
     "BiT",
     "Ethiopia",
     "Python",
-    "TypeScript",
+    "React",
     "Rule-Based AI",
   ],
   authors: [{ name: "Mikiyas Birhanu" }],
@@ -38,16 +39,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://my-portfolio-tau-nine-66.vercel.app",
-    title: "Mikiyas Birhanu — Software Developer | AI & Cybersecurity",
+    title: "Mikiyas Birhanu — Software Developer | IT Graduate",
     description:
-      "IT graduate from Bahir Dar University building practical software, explainable AI systems, and defensive cybersecurity solutions.",
+      "IT graduate from Bahir Dar University building practical software projects in web development, explainable decision systems, and cybersecurity fundamentals.",
     siteName: "Mikiyas Birhanu Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mikiyas Birhanu — Software Developer | AI & Cybersecurity",
+    title: "Mikiyas Birhanu — Software Developer | IT Graduate",
     description:
-      "IT graduate from Bahir Dar University building practical software, explainable AI systems, and defensive cybersecurity solutions.",
+      "IT graduate from Bahir Dar University building practical software projects in web development, explainable decision systems, and cybersecurity fundamentals.",
   },
   robots: {
     index: true,

@@ -9,9 +9,9 @@ export const educationData: EducationItem[] = [
     period: "Graduated",
     status: "Degree Conferred",
     highlights: [
-      "Rigorous comprehensive curriculum covering computer architecture, data structures & algorithms, database systems, software engineering methodologies, computer networks, and cybersecurity fundamentals.",
+      "Comprehensive curriculum covering computer architecture, data structures & algorithms, database systems, software engineering methodologies, computer networks, and cybersecurity fundamentals.",
       "Final-Year Capstone Project: 'AI-Powered Career Guidance System for Pre-Engineering Division Selection' — Developed an explainable expert decision system.",
-      "Cultivated deep independent engineering discipline, transitioning theory into functional full-stack software and automation scripts.",
+      "Gained practical technical grounding, translating university coursework into functional software projects and scripts.",
     ],
     keyCourses: [
       "Object-Oriented Programming (Python / Java)",

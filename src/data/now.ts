@@ -3,27 +3,27 @@ import { NowItem } from "@/types";
 export const nowData = {
   lastUpdated: "September 2026",
   location: "Addis Ababa / Bahir Dar, Ethiopia",
-  statusLine: "Actively engineering software, deepening AI & automation systems, and practicing defensive cybersecurity.",
+  statusLine: "Actively building software projects, learning automation systems, and studying defensive cybersecurity.",
   focusAreas: [
     {
-      title: "Full-Stack Software Architecture",
+      title: "Modern Web Development",
       category: "Building" as const,
       description:
-        "Refining production-grade Next.js, TypeScript, and Python REST services. Prioritizing modular state boundaries, clean contracts, and high-performance server components.",
-      badge: "Core Engineering",
+        "Building responsive web applications with React, Next.js, and TypeScript. Focusing on clean component design, state handling, and practical frontend workflows.",
+      badge: "Web Development",
     },
     {
-      title: "Pragmatic AI & Workflow Automation",
-      category: "Building" as const,
+      title: "AI & Workflow Automation",
+      category: "Exploring" as const,
       description:
-        "Building automated pipelines connecting event webhooks, structured AI API extractions, and data synchronization to eliminate manual repetitive digital chores.",
-      badge: "AI Automation",
+        "Experimenting with webhook integrations, structured AI API responses, and scripted task automation to streamline repetitive data handling.",
+      badge: "Automation",
     },
     {
       title: "Defensive Cybersecurity Fundamentals",
-      category: "Exploring" as const,
+      category: "Learning" as const,
       description:
-        "Practicing network socket auditing, Wireshark packet inspection, authentication flow hardening, and web application security best practices.",
+        "Studying network protocols, socket programming in Python, packet inspection with Wireshark, and foundational web security practices.",
       badge: "Security",
     },
   ] as NowItem[],
