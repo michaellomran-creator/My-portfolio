@@ -108,3 +108,41 @@ export interface KnowledgeEntry {
   answer: string;
   relatedLinks?: { label: string; href: string }[];
 }
+
+// ─── GitHub Dynamic Repository Types ────────────────────────────────────────
+
+/** Raw shape returned by the GitHub REST API /users/:user/repos endpoint */
+export interface GitHubApiRepo {
+  id: number;
+  name: string;
+  full_name: string;
+  html_url: string;
+  description: string | null;
+  homepage: string | null;
+  language: string | null;
+  topics?: string[];
+  stargazers_count: number;
+  forks_count: number;
+  updated_at: string;
+  pushed_at: string;
+  archived: boolean;
+  fork: boolean;
+  private: boolean;
+}
+
+/** Normalized internal representation used by UI components */
+export interface GitHubRepository {
+  id: number;
+  name: string;
+  description: string;
+  htmlUrl: string;
+  homepage: string | null;
+  language: string | null;
+  topics: string[];
+  stars: number;
+  forks: number;
+  updatedAt: string;
+  pushedAt: string;
+  archived: boolean;
+  isFork: boolean;
+}
